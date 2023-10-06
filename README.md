@@ -1,4 +1,4 @@
-# project-3
+# Project 3 - Covid-19 Data Analysis
 
 This repo contains code for Data Analytics project 3.
 
