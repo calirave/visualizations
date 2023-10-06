@@ -13,7 +13,7 @@ Data wrangling process:
 2. Create tables in PostgreSQL using covid_db_query.sql query in SQL folder.
 3. Add row counter column to vaccinations table using update_vac.sql. This table had a lot of extraneous columns which were not needed for our analysis so we had to drop them.
 4. Create a new table from vaccinations table filtered by group and extracting only needed columns using filtered_vac.sql.
-5. Once the needed tables were in appropriate form, a Python job was run for each table to extract from the table and convert the data into JSON format.
+5. Once the needed tables were in appropriate form, a Python job (etl.py) was run for each table to extract from the table and convert the data into JSON format.
 6. Two files were used from local source - filtered_vac.json and geography.json.
 
 Webpage/Flask development:
