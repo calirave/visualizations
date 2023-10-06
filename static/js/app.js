@@ -201,7 +201,7 @@ function updatePlotly() {
   let dropdown = d3.select("#selDataset");
   let choice = dropdown.property("value");
   barchart(choice);
-  //   bubblechart(choice);
+  map(choice);
   demographics(choice);
 }
 
